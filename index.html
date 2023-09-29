@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <label for="">Заметки</label>
+        <div class="wrapper-input">
+          <input type="text" id="input-task" placeholder="Введите задачу" />
+          <button id="btn-add-task">Добавить</button>
+        </div>
+        <div class="wrapper-post"></div>
+        <dialog class="modal">
+          <div class="modal-content">
+            <p>Изменить задачу</p>
+            <input type="text" class="input-modal" />
+            <span class="close">×</span>
+            <button class="change">Изменить</button>
+          </div>
+        </dialog>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
